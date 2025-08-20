@@ -111,28 +111,3 @@ npm run dev
 Frontend runs on 👉 `http://localhost:5173`  
 Backend runs on 👉 `http://localhost:5000`
 
----
-
-## 📸 Screenshots (Optional)
-_Add screenshots or a demo GIF of your project here._
-
----
-
-## 🚀 Deployment
-- **Frontend** → Vercel / Netlify  
-- **Backend** → Render / Railway / Heroku  
-- **Database** → MongoDB Atlas  
-
----
-
-## 🤝 Contributing
-1. Fork the repo  
-2. Create a new branch (`feature-branch`)  
-3. Commit changes  
-4. Push and create a PR  
-
----
-
-## 📜 License
-This project is **MIT Licensed** – feel free to use and modify.  
-
