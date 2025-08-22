@@ -255,7 +255,7 @@ const Home = () => {
         <div className="absolute -top-20 -left-20 w-96 h-96 bg-purple-100 rounded-full filter blur-3xl opacity-30"></div>
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">JobPortal</span>?</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">TalentGrid</span>?</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Everything you need for your career journey in one place.
             </p>
@@ -288,7 +288,7 @@ const Home = () => {
         <div className="relative max-w-4xl mx-auto px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Take the Next Step?</h2>
           <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of professionals who found success with JobPortal.
+            Join thousands of professionals who found success with TalentGrid.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             {!isAuthenticated ? (
