@@ -51,7 +51,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <span className="ml-3 text-2xl font-bold bg-gradient-to-r from-cyan-400 via-pink-500 to-yellow-500 bg-clip-text text-transparent">
-                  JobPortal
+                  TalentGrid
                 </span>
               </div>
             </div>
@@ -125,7 +125,7 @@ const Footer = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-fuchsia-800/40 to-transparent rounded-lg"></div>
             <div className="relative flex flex-col md:flex-row justify-between items-center py-6 px-6 rounded-lg backdrop-blur-sm">
               <p className="text-slate-200 text-sm flex items-center space-x-2">
-                <span>© {currentYear} JobPortal. All rights reserved.</span>
+                <span>© {currentYear} TalentGrid. All rights reserved.</span>
                 <span className="hidden md:inline-block w-1 h-1 bg-pink-400 rounded-full"></span>
                 <span className="hidden md:inline text-xs text-pink-300">Made with ❤️ for job seekers</span>
               </p>
