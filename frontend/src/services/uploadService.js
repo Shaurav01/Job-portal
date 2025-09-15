@@ -41,7 +41,7 @@ export const uploadService = {
 
   // Get file URL
   getFileURL(filename) {
-    const baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
+    const baseURL = import.meta.env.VITE_API_BASE_URL || "https://job-portal-m4na.onrender.com";
     return `${baseURL.replace('/api', '')}/uploads/${filename}`;
   }
 };
