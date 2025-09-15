@@ -1,8 +1,13 @@
 import axios from 'axios';
 
+// Normalize API base URL to ensure it includes "/api"
+const RAW_BASE = import.meta.env.VITE_API_BASE_URL || "https://job-portal-m4na.onrender.com";
+const _base = RAW_BASE.replace(/\/$/, "");
+const BASE_URL = _base.endsWith("/api") ? _base : `${_base}/api`;
+
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "https://job-portal-m4na.onrender.com/api",
+  baseURL: BASE_URL,
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
